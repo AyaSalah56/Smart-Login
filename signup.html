@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.style.css">
+    <title>signup</title>
+</head>
+
+<body>
+    <div class="log w-50 m-auto shadow mt-5 pb-5 px-5">
+        <h1 class="text-center pb-2 pt-5">Smart Login System</h1>
+        <input type="text" class="form-control" placeholder="Enter your name" id="uname">
+        <input type="email" class="form-control my-4" placeholder="Enter your email" id="email">
+        <div class="position-relative eyePass">
+            <input type="password" class="form-control mb-4" placeholder="Enter password" id="pass">
+            <i class="fa-solid fa-eye text-white position-absolute d-none " id="openeye"></i>
+            <i class="fa-solid fa-eye-slash text-white position-absolute d-flex " id="closeeye" ></i>
+        </div>
+        <p id="exist" class="center ">
+            <span id="scss" class=" my-2 text-success"></span>
+            <span id="dangr" class=" my-2 text-danger "></span>
+            <span id="founded" class=" my-2 text-danger"></span>
+            <span id="validEmail" class=" my-2 text-danger"></span>
+        </p>
+        <button class="btn btn-outline-info  form-control mb-3" id="signup"> <a >Sign Up</a></button>
+
+        <p class="text-white text-center">You have an account?
+            <a href="http://127.0.0.1:5500/index.html">Signin</a>
+        </p>
+        
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+
+</html>

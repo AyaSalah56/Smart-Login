@@ -1,0 +1,33 @@
+body{
+    background-color: #24353f;
+}
+h1
+{
+    color: #17a2b8;
+}
+input
+{
+    background-color: transparent !important;
+    color: white !important;
+}
+::placeholder {
+    color: #ced4da !important;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.center {
+    text-align: center !important;
+}
+.log
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.eyePass i 
+{
+    top:10px ;
+    right: 10px;
+}
